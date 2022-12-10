@@ -1,0 +1,57 @@
+.app {
+  border: solid 1px;
+  height: 100vh;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+
+.main-box {
+  border: solid;
+  height: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 3fr;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+
+.menu-link{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.menu-link>a{
+    color: white;
+}
+.sidebar {
+  border: solid;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.sidebar >a{
+    color: black;
+}
+.layout {
+  border: solid;
+  height: 100%;
+}
